@@ -5,8 +5,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+<jsp:include page="includes.jsp" />
 </head>
 <body>
-	<h1>Message : ${message}</h1>	
+
+<jsp:include page="header.jsp" />
+
+	<h1>Message : ${message}</h1>
+	
+<jsp:include page="footer.jsp" />
 </body>
 </html>
