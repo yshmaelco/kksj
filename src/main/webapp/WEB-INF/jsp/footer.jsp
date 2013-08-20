@@ -5,4 +5,5 @@
   <div id="copyright" align="center">
     <p class="fl_left">Kapatirang Kristiano sa San Juan, Inc. | Copyright &copy; 2013 - All Rights Reserved</p>
     <p class="fl_right">Thanks to <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+  </div>
 </div>

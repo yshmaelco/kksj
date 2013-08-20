@@ -1,0 +1,42 @@
+#map_canvas {
+	width: 1000px;
+	height: 550px;
+	border: 1px solid #CCCCCC;
+}
+
+em {
+	font-weight:bold;
+}
+
+.page_title {
+	font: 24px Verdana, Helvetica, Arial, Sans-Serif;
+	padding: 0px 0px 10px 0px;	
+}
+
+
+/* Bread crumb */
+.breadcrumb { 
+	list-style: none; 
+	overflow: hidden; 
+	font: 18px Helvetica, Arial, Sans-Serif;
+	
+	
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	/* border: solid black; */
+}
+.breadcrumb li { 
+	float: left; 
+	/* border: solid green; */
+}
+.breadcrumb li a {
+	color: #aaa;
+	text-decoration: none; 
+	padding: 0px 10px 0px 0px;
+	position: relative; 
+	display: block;
+	float: left;
+	
+	/* border: solid red; */
+}
+/* Bread crumb */

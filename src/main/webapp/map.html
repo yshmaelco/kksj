@@ -3,19 +3,17 @@
   <head>
     <style>
       #map_canvas {
-        width: 500px;
-        height: 400px;
+        width: 1000px;
+        height: 550px;
       }
     </style>
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script>
-    alert('test1');
       function initialize() {
-    	  alert('test');
         var map_canvas = document.getElementById('map_canvas');
         var map_options = {
-          center: new google.maps.LatLng(44.5403, -78.5463),
-          zoom: 8,
+          center: new google.maps.LatLng(14.610433,121.023775),
+          zoom: 17,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(map_canvas, map_options)

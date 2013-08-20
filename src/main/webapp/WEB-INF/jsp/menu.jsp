@@ -3,29 +3,29 @@
   <div id="topbar">
     <div id="topnav">
       <ul>
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="#">About Us</a>
+        <li class="active mainmenu"><a href="index.htm">Home</a></li>
+        <li class="mainmenu"><a href="aboutus.htm">About Us</a>
         	<ul>
 	            <li><a href="contact.htm">Contact Us</a></li>
 			</ul>
         </li>
-        <li><a href="#">Organizations</a>
+        <li class="mainmenu"><a href="#">Organizations</a>
         	<ul>
 	            <li><a href="#">Children's</a></li>
 	            <li><a href="#">Youth</a></li>
 	            <li><a href="#">Adults</a></li>
 			</ul>
         </li>        
-        <li><a href="#">Videos</a>
+        <li class="mainmenu"><a href="#">Videos</a>
         <ul>
             <li><a href="#">Breaking of Bread Devotions</a></li>
             <li><a href="#">Special Numbers</a></li>
             <li><a href="#">Preaching Service Messages</a></li>
           </ul>
-          <li class="last"><a href="#">Gallery</a></li>
+          <li class="last mainmenu"><a href="#">Gallery</a></li>
       </ul>
     </div>
-    <div id="search">
+    <!-- <div id="search">
       <form action="#" method="post">
         <fieldset>
           <legend>Site Search</legend>
@@ -33,8 +33,8 @@
           <input type="submit" name="go" id="go" value="Search" />
         </fieldset>
       </form>
-    </div>
-    <br class="clear" />
+    </div>-->
+    <br class="clear" /> 
   </div>
 </div>
 <!-- ####################################################################################################### -->

@@ -7,13 +7,19 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class StaticPagesController {
+	
+	private static String VIEW_ABOUT_US = "aboutus";
+	private static String VIEW_CONTACT_US = "contact";
  
 	@RequestMapping(value="/contact.htm",method = RequestMethod.GET)
-	public String printWelcome(ModelMap model) {
- 
-		model.addAttribute("message", "Spring 3 MVC Hello World");
-		return "contact";
- 
+	public String contact(ModelMap model) {
+		return VIEW_CONTACT_US;
+	}
+	
+	
+	@RequestMapping(value="/aboutus.htm",method = RequestMethod.GET)
+	public String aboutUs(ModelMap model) {
+		return VIEW_ABOUT_US;
 	}
 	
 }

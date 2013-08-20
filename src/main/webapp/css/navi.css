@@ -13,7 +13,8 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	padding:0;
 	font-size:13px;
 	font-weight:normal;
-	font-family:Georgia, "Times New Roman", Times, serif;
+	/* font-family:Georgia, "Times New Roman", Times, serif; */
+	font-family:Verdana, Helvetica, Arial, Sans-Serif;
 	}
 
 #topnav ul, #topnav li{
@@ -92,7 +93,8 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	padding:0 0 14px 0;
 	font-size:20px;
 	font-weight:normal;
-	font-family:Georgia, "Times New Roman", Times, serif;
+	/* font-family:Georgia, "Times New Roman", Times, serif; */
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
 	color:#666666;
 	background-color:#F9F9F9;
 	line-height:normal;

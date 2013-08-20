@@ -14,7 +14,7 @@ body{
 	margin:0;
 	padding:0;
 	font-size:12px;
-	font-family:verdana, Arial, Helvetica, sans-serif;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
 	color:#FFFFFF;
 	background-color:#1A3151;
 	}
@@ -50,7 +50,8 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	padding:0 0 8px 0;
 	font-size:20px;
 	font-weight:normal;
-	font-family:Georgia, "Times New Roman", Times, serif;
+	/* font-family:Georgia, "Times New Roman", Times, serif; */
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
 	border-bottom:1px dotted #000000;
 	}
 
@@ -78,7 +79,8 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #header{
 	padding:20px 0;
-	font-family:Georgia, "Times New Roman", Times, serif;
+	/* font-family:Georgia, "Times New Roman", Times, serif; */
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
 	}
 
 #header #logo{
@@ -217,7 +219,9 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 /* ----------------------------------------------Container-------------------------------------*/
 
 #container{
-	padding:20px 0;
+	/* padding:20px 0; */
+	padding: 10px 0;
+	/* border: 1px solid red; */
 	}
 
 /* ----------------------------------------------Homepage Services-------------------------------------*/
@@ -401,7 +405,8 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	padding:0 0 14px 0;
 	font-size:20px;
 	font-weight:normal;
-	font-family:Georgia, "Times New Roman", Times, serif;
+	/* font-family:Georgia, "Times New Roman", Times, serif; */
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
 	line-height:normal;
 	}
 

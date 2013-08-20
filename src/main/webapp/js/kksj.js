@@ -1,6 +1,7 @@
 function selectMenu(menu) {
 	//alert(menu);
 	$(".active").removeClass('active');
-	$("li > a:contains('" + menu + "'):parent").addClass("active")
+	//console.log($("li.mainmenu:contains('Contact Us')"))
+	$("li.mainmenu:contains('" + menu + "'):parent").addClass("active")
 	
 }

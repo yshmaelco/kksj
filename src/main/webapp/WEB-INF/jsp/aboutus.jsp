@@ -6,22 +6,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 <jsp:include page="includes.jsp" />
-<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script>
  
 $( document ).ready(function() {
-	 
 	selectMenu('About Us')
-    function initialize() {
-        var map_canvas = document.getElementById('map_canvas');
-        var map_options = {
-          center: new google.maps.LatLng(14.610433,121.023775),
-          zoom: 17,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(map_canvas, map_options)
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
 });
 </script>
 </head>
@@ -38,18 +26,23 @@ $( document ).ready(function() {
 		<li><a href="#">></a></li>
 		<li><a href="#">Contact Us</a></li>
 	</ul> -->
-	<div class="page_title">CONTACT US</div>
+	<div class="page_title">ABOUT US</div>
     <table>
-    	<tr><td><em>Kapatirang Kristiano sa San Juan, Inc.</em></td></tr>
-	    <tr><td>Address: 130 A. Lake St., San Juan City, Philippines 1500</td></tr>
-	    <tr><td>Phone: +63 2 725-7125</td></tr>
+    	<tr><td><em>Mission</em></td></tr>
+	    <tr><td>"Loving One Another in Order To Make Christ Known"</td></tr>
 	    <tr><td><br></td></tr>
-	    <tr><td>Other Contact Details:</td></tr>
-	    <tr><td>Ronald Failano: +63 2 576-6542</td></tr>
-	    <tr><td>Dennis Sinchongco: +63 2 755-1353</td></tr>
+	    <tr><td><em>Vision</em></td></tr>
+	    <tr><td>"For everyone attending KKSJ become Christlike"</td></tr>
 	    <tr><td><br></td></tr>
-	    <tr><td><em>Map:</em></td></tr>
-	    <tr><td><div id="map_canvas"></div></td></tr>
+	    <tr><td><br></td></tr>
+	</table>
+	
+	<table>
+	    <tr><td><em>Board of Elders</em></td></tr>
+	    <tr><td>Chairman:</td><td>Francis Puzon</td></tr>
+	    <tr><td>Vice - Chairman:</td><td>Rudy Ponce De Leon</td></tr>
+	    <tr><td>Tresurer:</td><td>Loreto Matibag</td></tr>
+	    <tr><td>Secretary:</td><td>Ronald Failano</td></tr>
 	</table>
   </div>
 </div>
